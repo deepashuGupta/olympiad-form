@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SfOly</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+        </div>
+        <div id="navlink">
+            <a href="#">Home</a>
+            <a href="#">Olympiads</a>
+            <a href="#">AboutUs</a>
+            <a href="#">FAQs</a>
+            <a class="active" href="#">Register</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div id="formoutter">
+        <div id="forminner">
+            <h2>Olympiads Session 2020-21</h2>
+            <form action="#">
+            <h4>Please Choose Your Qualification</h4>
+            <div id="box1">
+                <div class="qualification">
+                    <div class="input">
+                        <input type="radio" id="schlradio" name="qualification" value="School Student">
+                        <label>For The School Student</label>
+                    </div>
+                    <div id="schlimg"></div>
+                </div>
+                <div class="qualification">
+                    <div class="input">
+                        <input type="radio" id="cllgradio" name="qualification" value="School Student">
+                        <label>For The College Student</label>
+                    </div>
+                    <div id="clgimg"></div>
+                </div>
+            </div>
+            <div id="student">
+                <h4>Please Choose Your Category</h4>
+                <div id="box2">
+                    <div class="qualification">
+                        <div class="input">
+                            <input type="checkbox" name="category1" value="Science">
+                            <label>Science Olympiads</label>
+                        </div>
+                        <div id="scienceimg"></div>
+                    </div>
+                    <div class="qualification">
+                        <div class="input">
+                            <input type="checkbox" name="category2" value="Math">
+                            <label>Maths Olympiads</label>
+                        </div>
+                        <div id="mathimg"></div>
+                    </div>
+                    <div class="qualification">
+                        <div class="input">
+                            <input type="checkbox" name="category3" value="English">
+                            <label>English Olympiads</label>
+                        </div>
+                        <div id="engimg"></div>
+                    </div>
+                </div>
+                <h4>Please Fill The Details</h4>
+                <div class="box3">
+                    <div class="input">
+                        <div>
+                            <label>Full Name</label>
+                            <input type="text" name="Name" placeholder="Jhon Deo" required>
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" name="E-mail" placeholder="jhon@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Phone No.</label>
+                            <input type="text" name="number1" placeholder="98765..." required>
+                        </div>
+                        <div>
+                            <label>Alternate Phone No.</label>
+                            <input type="text" name="number2" placeholder="98765...">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Currently Class in</label>
+                            <input type="number" id="class" name="class" placeholder="12" required>
+                        </div>
+                        <div>
+                            <label>School Name</label>
+                            <input type="text" name="schoolName" placeholder="xyz school" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Pin Code</label>
+                            <input type="number" id="pin" name="pincode" placeholder="432921" required>
+                        </div>
+                        <div>
+                            <label>DOB</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="college">
+                <h4>Please Choose Your Category</h4>
+                <div id="box4">
+                    <div class="qualification">
+                        <div class="input">
+                            <input type="checkbox" name="category1" value="Grads">
+                            <label>Grads Olympiads</label>
+                        </div>
+                        <div id="gradsimg"></div>
+                    </div>
+                    <div class="qualification">
+                        <div class="input">
+                            <input type="checkbox" name="category1" value="Grads">
+                            <label>Finance Olympiads</label>
+                        </div>
+                        <div id="financeimg"></div>
+                    </div>
+                    <div id="transparent" class="qualification"></div>
+                </div>
+                <h4>Please Fill The Details</h4>
+                <div class="box3">
+                    <div class="input">
+                        <div>
+                            <label>Full Name</label>
+                            <input type="text" name="Name" placeholder="Jhon Deo" required>
+                        </div>
+                        <div>
+                            <label>Email</label>
+                            <input type="email" name="E-mail" placeholder="jhon@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Phone No.</label>
+                            <input type="text" name="number1" placeholder="98765..." required>
+                        </div>
+                        <div>
+                            <label>Alternate Phone No.</label>
+                            <input type="text" name="number2" placeholder="98765...">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Degree Pursuing</label>
+                            <input type="number" id="class" name="class" placeholder="B.tech" required>
+                        </div>
+                        <div>
+                            <label>College Name</label>
+                            <input type="text" name="schoolName" placeholder="xyz college" required>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <label>Pin Code</label>
+                            <input type="number" id="pin" name="pincode" placeholder="432921" required>
+                        </div>
+                        <div>
+                            <label>DOB</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <input id="btn" type="button" value="Payment">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

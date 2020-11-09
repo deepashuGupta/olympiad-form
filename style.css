@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    width: 100%;
+}
+
+#navbar #logo{
+    height: 100%;
+    width: 30%;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-image: url(logo.png);
+}
+
+#navbar #navlink {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar #navlink a{
+    margin-right: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+#navbar #navlink .active{
+    color: rgb(154, 46, 255);
+    border-bottom: 2px solid blue;
+}
+
+#navbar #navlink #underline{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 194);
+}
+
+#formoutter{
+    padding: 30px 200px;
+    height: 100vh;
+    width: 100%;
+}
+
+#formoutter #forminner{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+#formoutter #forminner h2{
+    font-weight:600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#formoutter #forminner h4{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#formoutter #forminner #box1{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    margin-bottom:30px;
+}
+
+#formoutter #forminner #input>label{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#formoutter #forminner .qualification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100%;
+    width: 45%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    transition-duration: .5s;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+#formoutter #forminner .qualification:hover{
+    transform: scale(1.1,1.1);
+}
+
+#formoutter #forminner #box1 input{
+    cursor: pointer;
+}
+
+#formoutter #forminner #box1 #schlimg{
+    height: 70px;
+    width: 70px;
+    background-image: url(School.png);
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#formoutter #forminner #box1 #clgimg{
+    height: 70px;
+    width: 70px;
+    background-image: url(College.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forminner #box2{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#formoutter #forminner #box2 input{
+    cursor: pointer;
+}
+
+#forminner #box2>.qualification{
+    width: 30%;
+}
+
+#forminner #box2 #scienceimg{
+    height: 65px;
+    width: 70px;
+    background-image: url(Science.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forminner #box2 #mathimg{
+    height: 65px;
+    width: 70px;
+    background-image: url(math.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forminner #box2 #engimg{
+    height: 65px;
+    width: 70px;
+    background-image: url(English.png);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forminner .box3{
+    width: 100%;
+}
+
+#forminner .box3>.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#forminner .box3 label{
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+#forminner .box3 input{
+    border: none;
+    padding: 0 20px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    transition-duration: .3s;
+    transition-property: box-shadow;
+    background-color: #f3f3f3;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+#forminner .box3 input:hover{
+    box-shadow: 0 5px 13px rgb(236, 236, 236);
+}
+
+#forminner .box3 #class{
+    margin-left: -45px;
+}
+
+#forminner .box3 #pin{
+    margin-left: 9.5px;
+}
+
+#forminner #box4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#formoutter #forminner #box4 input{
+    cursor: pointer;
+}
+
+#forminner #box4>.qualification{
+    width: 30%;
+}
+
+#forminner #box4 #transparent{
+    background-color: transparent;
+}
+
+#forminner #box4 #gradsimg{
+    margin-top: 10px;
+    height: 100%;
+    width: 65px;
+    background-image: url(College.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+
+#forminner #box4 #financeimg{
+    margin-top: 20px;
+    height: 100%;
+    width: 65px;
+    background-image: url(finance.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+
+#forminner #btn{
+    padding: 8px 0;
+    width: 100px;
+    background-color: rgb(75, 192, 75);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    transition-property: box-shadow,transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+#forminner #btn:hover{
+    box-shadow: 0 2px 10px rgb(75, 192, 75);
+    transform: scale(1.05,1.05);
+}
+
+/* by Default */
+/* #student{
+    display: none;
+}
+
+#college{
+    display: none;
+}
+
+#btn{
+    display: none
+} */
